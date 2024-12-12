@@ -10,69 +10,49 @@ The project integrates data processing and natural language understanding with a
 
 This project showcases a combination of machine learning, natural language processing, and interactive UI design to make healthcare information more accessible.
 
-## Features
-Custom Query Handling: Open-ended question answering for medical inquiries.
-Drug Review Insights: Processes datasets to identify the most effective drugs for specific conditions.
-Sentiment-Driven Recommendations: Utilizes sentiment scores to refine recommendations.
-Scalable Design: Built using Hugging Face APIs for seamless integration and model updates.
+## Features:
+**Custom Query Handling:** Open-ended question answering for medical inquiries.
+**Drug Review Insights:** Processes datasets to identify the most effective drugs for specific conditions.
+**Sentiment-Driven Recommendations:** Utilizes sentiment scores to refine recommendations.
+**Scalable Design:** Built using Hugging Face APIs for seamless integration and model updates.
 
-Tech Stack
+## Tech Stack:
+**Programming Language:** Python
+**Data:** Drug review datasets (including ratings, conditions, reviews, and usefulness).
 
-Programming Language: Python
+### Libraries and Frameworks:
+**-> Hugging Face Transformers**
+**->Pandas, NumPy (Data processing)**
+**->Matplotlib, Seaborn (Visualization)**
+**->NLTK (Natural Language Toolkit)**
+**->Flask/Streamlit (for chatbot deployment)**
 
-Libraries and Frameworks:
+## How to Use:
+### Clone the repository:
+**git clone https://github.com/yourusername/HealthGPT.git**
+**cd HealthGPT**
 
-Hugging Face Transformers
+### Install the required dependencies:
+**pip install -r requirements.txt**
 
-Pandas, NumPy (Data processing)
+### Obtain a Hugging Face API key and set it in your environment:
+**export HUGGINGFACE_API_KEY='your_api_key'**
 
-Matplotlib, Seaborn (Visualization)
-
-NLTK (Natural Language Toolkit)
-
-Flask/Streamlit (for chatbot deployment)
-
-Data: Drug review datasets (including ratings, conditions, reviews, and usefulness).
-
-How to Use
-
-Clone the repository:
-
-git clone https://github.com/yourusername/HealthGPT.git
-cd HealthGPT
-
-Install the required dependencies:
-
-pip install -r requirements.txt
-
-Obtain a Hugging Face API key and set it in your environment:
-
-export HUGGINGFACE_API_KEY='your_api_key'
-
-Run the chatbot application:
-
-python chatbot.py
+### Run the chatbot application:
+**python chatbot.py**
 
 Start interacting with the chatbot via the terminal or web UI.
 
-Future Enhancements
+## Future Enhancements:
+**1.Integration with Medical APIs:** Enhance chatbot accuracy with real-time data.
+**2. Mobile and Web App Deployment:** Expand accessibility with dedicated applications.
+**3. Multilingual Support:** Provide responses in multiple languages for wider reach.
+**4. Enhanced Privacy Measures:** Implement stricter data privacy and security protocols.
 
-Integration with Medical APIs: Enhance chatbot accuracy with real-time data.
-
-Mobile and Web App Deployment: Expand accessibility with dedicated applications.
-
-Multilingual Support: Provide responses in multiple languages for wider reach.
-
-Enhanced Privacy Measures: Implement stricter data privacy and security protocols.
-
-Contributions
-
+## Contributions:
 Contributions are welcome! Please fork the repository, create a new branch, and submit a pull request.
 
-Acknowledgments
-
+## Acknowledgments:
 The Hugging Face team for their exceptional transformer models.
-
 The creators of the drug dataset used in this project.
-
 OpenAI for inspiring advancements in conversational AI.
