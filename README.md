@@ -29,7 +29,7 @@ This project showcases a combination of machine learning, natural language proce
 
 ## How to Use:
 ### Clone the repository:
-**git clone https://github.com/yourusername/HealthGPT.git**
+**git clone https://github.com/Rashaz-Raf/HealthGPT.git**
 **cd HealthGPT**
 
 ### Install the required dependencies:
