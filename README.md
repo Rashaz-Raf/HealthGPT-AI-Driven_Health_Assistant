@@ -12,19 +12,27 @@ This project showcases a combination of machine learning, natural language proce
 
 ## Features:
 **Custom Query Handling:** Open-ended question answering for medical inquiries.
+
 **Drug Review Insights:** Processes datasets to identify the most effective drugs for specific conditions.
+
 **Sentiment-Driven Recommendations:** Utilizes sentiment scores to refine recommendations.
+
 **Scalable Design:** Built using Hugging Face APIs for seamless integration and model updates.
 
 ## Tech Stack:
 **Programming Language:** Python
+
 **Data:** Drug review datasets (including ratings, conditions, reviews, and usefulness).
 
 ### Libraries and Frameworks:
 **-> Hugging Face Transformers**
+
 **->Pandas, NumPy (Data processing)**
+
 **->Matplotlib, Seaborn (Visualization)**
+
 **->NLTK (Natural Language Toolkit)**
+
 **->Flask/Streamlit (for chatbot deployment)**
 
 ## How to Use:
@@ -44,10 +52,10 @@ This project showcases a combination of machine learning, natural language proce
 Start interacting with the chatbot via the terminal or web UI.
 
 ## Future Enhancements:
-**1.Integration with Medical APIs:** Enhance chatbot accuracy with real-time data.
-**2. Mobile and Web App Deployment:** Expand accessibility with dedicated applications.
-**3. Multilingual Support:** Provide responses in multiple languages for wider reach.
-**4. Enhanced Privacy Measures:** Implement stricter data privacy and security protocols.
+1. **Integration with Medical APIs:** Enhance chatbot accuracy with real-time data.
+2. **Mobile and Web App Deployment:** Expand accessibility with dedicated applications.
+3. **Multilingual Support:** Provide responses in multiple languages for wider reach.
+4. **Enhanced Privacy Measures:** Implement stricter data privacy and security protocols.
 
 ## Contributions:
 Contributions are welcome! Please fork the repository, create a new branch, and submit a pull request.
