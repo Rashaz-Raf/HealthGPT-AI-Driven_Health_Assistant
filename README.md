@@ -62,5 +62,7 @@ Contributions are welcome! Please fork the repository, create a new branch, and 
 
 ## Acknowledgments:
 The Hugging Face team for their exceptional transformer models.
+
 The creators of the drug dataset used in this project.
+
 OpenAI for inspiring advancements in conversational AI.
